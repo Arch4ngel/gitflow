@@ -1,2 +1,8 @@
-def text_title(text):
+def text_upper(text):
+    """"Возвращает текст в заглавных буквах"""
+    return str.upper(text)
+
+
+def text_title_words(text):
+    """Возвращает текст со словами, начинающимися с заглавных букв"""
     return str.title(text)
